@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khamaruzz Naadan Achaar — Authentic Kerala homemade pickles. Traditional recipes, no preservatives. Order on WhatsApp.">
+  <meta name="keywords" content="Kerala pickle, homemade achaar, mango pickle, garlic pickle, chilli pickle, fish pickle, beef pickle, chicken pickle, Khamaruzz">
+  <meta name="author" content="Khamaruzz Naadan Achaar">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Khamaruzz Naadan Achaar — Authentic Kerala Homemade Pickles">
+  <meta property="og:description" content="Premium handcrafted Kerala pickles. Order directly on WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Khamaruzz Naadan Achaar">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:image" content="socialshare.png" id="metaOgImage">
+  <meta property="og:image:alt" content="Khamaruzz Naadan Achaar — Authentic Kerala homemade pickles">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Khamaruzz Naadan Achaar — Authentic Kerala Homemade Pickles">
+  <meta name="twitter:description" content="Premium handcrafted Kerala pickles. Order directly on WhatsApp.">
+  <meta name="twitter:image" content="socialshare.png" id="metaTwitterImage">
+  <meta name="theme-color" content="#7c2d12">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  
+  <link rel="canonical" href="./" id="canonicalUrl">
+  <title>Khamaruzz Naadan Achaar — Authentic Kerala Homemade Pickles</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="logo.png">
+
+  <!-- Canonical & Meta Image Resolver -->
+  <script>
+    (function () {
+      var base = document.querySelector('link[rel="canonical"]');
+      if (!base) return;
+      var origin = location.origin;
+      if (!origin || origin === "null" || location.protocol === "file:") return;
+      var root = location.href.replace(/[^/]*$/, "");
+      base.href = location.href.split("#")[0];
+      ["metaOgImage", "metaTwitterImage"].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) el.content = new URL(el.getAttribute("content"), root).href;
+      });
+    })();
+  </script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Khamaruzz Naadan Achaar",
+    "image": "logo.png",
+    "description": "Authentic Kerala homemade pickles, handcrafted in small batches using traditional family recipes with no artificial preservatives.",
+    "telephone": "+91-96457-78508",
+    "priceRange": "₹₹",
+    "areaServed": "IN",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Kerala",
+      "addressCountry": "IN"
+    },
+    "sameAs": ["https://www.instagram.com/khamaruzz.nadan.acharr/"]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Khamaruzz Naadan Achaar — Home">
+        <img src="logo.png" alt="Khamaruzz Logo" class="brand-logo" width="48" height="48">
+        <span class="brand-text">
+          <span class="brand-name">Khamaruzz</span>
+          <span class="brand-tag">Naadan Achaar</span>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <button type="button" class="header-icon-btn" data-open-favorites aria-label="View favorites">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          <span class="header-badge" id="favBadge" hidden>0</span>
+        </button>
+        <button type="button" class="header-icon-btn" data-open-cart aria-label="View cart">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+          <span class="header-badge" id="cartBadge" hidden>0</span>
+        </button>
+        <nav class="nav-desktop" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#products">Products</a>
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact</a>
+          <a href="#" class="btn btn-primary btn-sm wa-cta-header" data-wa-default>Order on WhatsApp</a>
+        </nav>
+      </div>
+
+      <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="nav-mobile" id="mobileNav" aria-label="Mobile navigation" hidden>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <button type="button" class="nav-mobile-action" data-open-favorites>Favorites</button>
+      <button type="button" class="nav-mobile-action" data-open-cart>Cart</button>
+      <a href="https://www.instagram.com/khamaruzz.nadan.acharr/" target="_blank" rel="noopener noreferrer">Follow on Instagram</a>
+      <a href="#" class="btn btn-primary wa-cta-header" data-wa-default>Order on WhatsApp</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Khamaruzz Naadan Achaar</p>
+          <h1>Authentic Kerala Homemade Pickles</h1>
+          <p class="hero-lead">Handcrafted in small batches using time-honoured family recipes — sun-ripened mangoes, fresh garlic, and fiery Kerala chillies, pickled the traditional way for an unforgettable naadan taste.</p>
+          <div class="hero-cta">
+            <a href="#" class="btn btn-primary btn-lg wa-cta" data-wa-default>
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Order on WhatsApp
+            </a>
+            <a href="https://www.instagram.com/khamaruzz.nadan.acharr/" class="btn btn-outline btn-lg" target="_blank" rel="noopener noreferrer">
+              Follow on Instagram
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="mango.png" alt="Featured Mango Pickle" class="hero-img" width="480" height="480">
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section section-products" id="products">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Our Collection</p>
+          <h2>Signature Naadan Achaar</h2>
+          <p class="section-desc">Choose your favourite pickle, select a size, add to cart or order directly on WhatsApp.</p>
+        </header>
+
+        <div class="product-grid">
+          <!-- Mango -->
+          <article class="product-card" data-product="mango">
+            <div class="product-image">
+              <button class="btn-favorite" data-favorite="mango" aria-label="Favorite Mango Pickle">♥</button>
+              <img src="mango.png" alt="Mango Pickle" loading="lazy" width="400" height="400">
+            </div>
+            <div class="product-body">
+              <h3>Mango Pickle</h3>
+              <p class="product-desc">Sun-ripened raw mangoes in aromatic traditional spices.</p>
+              <div class="product-meta">
+                <select class="size-select" data-product="mango" aria-label="Select size for Mango Pickle">
+                  <option value="250g" selected>250g</option>
+                  <option value="500g">500g</option>
+                  <option value="1kg">1kg</option>
+                </select>
+                <p class="product-price"><span class="price-amount" data-price-for="mango">₹149</span></p>
+              </div>
+              <div class="product-actions">
+                <button class="btn btn-outline btn-block" data-add-cart="mango">Add to Cart</button>
+                <button class="btn btn-primary btn-block product-order" data-product="mango">Order on WhatsApp</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Garlic -->
+          <article class="product-card" data-product="garlic">
+            <div class="product-image">
+              <button class="btn-favorite" data-favorite="garlic" aria-label="Favorite Garlic Pickle">♥</button>
+              <img src="garlic.png" alt="Garlic Pickle" loading="lazy" width="400" height="400">
+            </div>
+            <div class="product-body">
+              <h3>Garlic Pickle</h3>
+              <p class="product-desc">Whole garlic cloves pickled in traditional spices and sesame oil.</p>
+              <div class="product-meta">
+                <select class="size-select" data-product="garlic" aria-label="Select size for Garlic Pickle">
+                  <option value="250g" selected>250g</option>
+                  <option value="500g">500g</option>
+                  <option value="1kg">1kg</option>
+                </select>
+                <p class="product-price"><span class="price-amount" data-price-for="garlic">₹169</span></p>
+              </div>
+              <div class="product-actions">
+                <button class="btn btn-outline btn-block" data-add-cart="garlic">Add to Cart</button>
+                <button class="btn btn-primary btn-block product-order" data-product="garlic">Order on WhatsApp</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Chilli -->
+          <article class="product-card" data-product="chilli">
+            <div class="product-image">
+              <button class="btn-favorite" data-favorite="chilli" aria-label="Favorite Chilli Pickle">♥</button>
+              <img src="chilli.png" alt="Chilli Pickle" loading="lazy" width="400" height="400">
+            </div>
+            <div class="product-body">
+              <h3>Chilli Pickle</h3>
+              <p class="product-desc">Fiery Kerala green chilli pickle infused with garlic and spices.</p>
+              <div class="product-meta">
+                <select class="size-select" data-product="chilli" aria-label="Select size for Chilli Pickle">
+                  <option value="250g" selected>250g</option>
+                  <option value="500g">500g</option>
+                  <option value="1kg">1kg</option>
+                </select>
+                <p class="product-price"><span class="price-amount" data-price-for="chilli">₹199</span></p>
+              </div>
+              <div class="product-actions">
+                <button class="btn btn-outline btn-block" data-add-cart="chilli">Add to Cart</button>
+                <button class="btn btn-primary btn-block product-order" data-product="chilli">Order on WhatsApp</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Fish -->
+          <article class="product-card" data-product="fish">
+            <div class="product-image">
+              <button class="btn-favorite" data-favorite="fish" aria-label="Favorite Fish Pickle">♥</button>
+              <img src="fish.png" alt="Fish Pickle" loading="lazy" width="400" height="400">
+            </div>
+            <div class="product-body">
+              <h3>Fish Pickle</h3>
+              <p class="product-desc">Authentic coastal Kerala style spicy fish pickle.</p>
+              <div class="product-meta">
+                <select class="size-select" data-product="fish" aria-label="Select size for Fish Pickle">
+                  <option value="500g" selected>500g</option>
+                  <option value="1kg">1kg</option>
+                </select>
+                <p class="product-price"><span class="price-amount" data-price-for="fish">₹450</span></p>
+              </div>
+              <div class="product-actions">
+                <button class="btn btn-outline btn-block" data-add-cart="fish">Add to Cart</button>
+                <button class="btn btn-primary btn-block product-order" data-product="fish">Order on WhatsApp</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-about" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img src="mango.png" alt="Traditional Kerala preparation" loading="lazy" width="500" height="500">
+        </div>
+        <div class="about-content">
+          <p class="eyebrow">Our Story</p>
+          <h2>A Mother's Dream, Made Real</h2>
+          <p>Khamaruzz Naadan Achaar began as the dream of a homemaker who believed in the extraordinary culinary recipes passed down through generations.</p>
+          <p>Every jar is prepared with extreme care, patience, and love — ensuring you enjoy the authentic taste of homemade Kerala pickles without any preservatives.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <p class="eyebrow">Get in Touch</p>
+          <h2>Place Your Custom Order</h2>
+          <p>Fill in your details below and we will automatically prepare your order message for WhatsApp.</p>
+          <a href="tel:+919645778508" class="contact-link">+91 96457 78508</a>
+        </div>
+        <form class="order-form" id="orderForm">
+          <p class="form-cart-notice" id="formCartNotice" hidden>
+            Checking out <strong><span data-cart-count>0</span> items</strong> (<span data-cart-total>₹0</span>).
+          </p>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full Name *</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required pattern="[6-9][0-9]{9}" placeholder="10-digit mobile number">
+            </div>
+          </div>
+          <div class="form-row form-row--products" id="formProductRow">
+            <div class="form-group">
+              <label for="formProduct" id="formProductLabel">Select Product *</label>
+              <select id="formProduct" name="product">
+                <option value="">Choose a pickle</option>
+                <option value="Mango Pickle">Mango Pickle</option>
+                <option value="Garlic Pickle">Garlic Pickle</option>
+                <option value="Chilli Pickle">Chilli Pickle</option>
+                <option value="Fish Pickle">Fish Pickle</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="formSize" id="formSizeLabel">Select Size</label>
+              <select id="formSize" name="size" disabled>
+                <option value="">Select product first</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="address">Delivery Address *</label>
+            <textarea id="address" name="address" required rows="3" placeholder="House no., street, city, PIN code"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" name="notes" rows="2" placeholder="Special delivery instructions..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block" id="formSubmitBtn">
+            <span id="formSubmitLabel">Send Order via WhatsApp</span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>Khamaruzz Naadan Achaar</h3>
+        <p>Authentic Kerala homemade pickles — handcrafted with love and tradition.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Khamaruzz Naadan Achaar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drawer overlay & drawers -->
+  <div class="drawer-overlay" id="drawerOverlay" hidden></div>
+
+  <aside class="side-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-header">
+      <h2>Your Cart</h2>
+      <button type="button" class="drawer-close" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="drawer-body" id="cartItems"></div>
+    <div class="drawer-footer">
+      <div class="drawer-total">
+        <span>Subtotal</span>
+        <strong id="cartSubtotal">₹0</strong>
+      </div>
+      <button type="button" class="btn btn-primary btn-block" id="cartCheckoutBtn">Checkout on WhatsApp</button>
+      <button type="button" class="btn btn-ghost-dark btn-block" id="clearCartBtn" style="margin-top:0.5rem;">Clear Cart</button>
+    </div>
+  </aside>
+
+  <aside class="side-drawer" id="favoritesDrawer" aria-label="Favorite pickles" aria-hidden="true">
+    <div class="drawer-header">
+      <h2>Saved Favorites</h2>
+      <button type="button" class="drawer-close" aria-label="Close favorites">&times;</button>
+    </div>
+    <div class="drawer-body">
+      <div id="favoritesItems"></div>
+    </div>
+  </aside>
+
+  <div class="toast" id="toastRoot" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
