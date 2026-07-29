@@ -22,7 +22,7 @@
   <meta name="twitter:title" content="Khamaruzz Naadan Achaar — Authentic Kerala Homemade Pickles">
   <meta name="twitter:description" content="Premium handcrafted Kerala pickles. Order directly on WhatsApp.">
   <meta name="twitter:image" content="socialshare.png" id="metaTwitterImage">
-  <meta name="theme-color" content="#7c2d12">
+  <meta name="theme-color" content="#3D2B1F">
   <meta name="robots" content="index, follow, max-image-preview:large">
   
   <link rel="canonical" href="./" id="canonicalUrl">
@@ -72,250 +72,6 @@
     "sameAs": ["https://www.instagram.com/khamaruzz.nadan.acharr/"]
   }
   </script>
-      <style>
-      /* Widgetify Core Styles - Responsive & Mobile-First */
-      .widgetify-widget {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 60px;
-        height: 60px;
-        background-color: #9b87f5;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        cursor: pointer;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        z-index: 1000;
-        border: none;
-        outline: none;
-      }
-
-      .widgetify-widget:hover {
-        transform: scale(1.05);
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-      }
-
-      .widgetify-popup {
-        position: fixed;
-        bottom: 90px;
-        right: 20px;
-        width: 400px;
-        max-width: 90vw;
-        background-color: white;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        display: none;
-        flex-direction: column;
-        z-index: 999;
-        overflow: hidden;
-        border: 1px solid #e5e7eb;
-        padding: 20px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      }
-
-      .widgetify-popup.show {
-        display: flex;
-        animation: fadeInUp 0.3s ease;
-      }
-
-      @keyframes fadeInUp {
-        from {
-          opacity: 0;
-          transform: translateY(20px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      .widgetify-header {
-        background-color: #f3f4f6;
-        padding: 12px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid #e5e7eb;
-        border-radius: 10px 10px 0 0;
-        margin: -20px -20px 0 -20px;
-      }
-
-      .widgetify-header h3 {
-        margin: 0;
-        font-size: 14px;
-        font-weight: 600;
-        color: #374151;
-      }
-
-      .widgetify-close {
-        background: none;
-        border: none;
-        font-size: 18px;
-        color: #6b7280;
-        cursor: pointer;
-        padding: 0;
-        width: 20px;
-        height: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .widgetify-close:hover {
-        color: #374151;
-      }
-
-      .widgetify-watermark {
-        background-color: #f9fafb;
-        border-top: 1px solid #e5e7eb;
-        padding: 8px 12px;
-        text-align: center;
-        margin: 20px -20px -20px -20px;
-        border-radius: 0 0 10px 10px;
-      }
-
-      .widgetify-watermark a {
-        color: #6b7280;
-        text-decoration: none;
-        font-size: 10px;
-        font-weight: 500;
-      }
-
-      .widgetify-watermark a:hover {
-        color: #374151;
-      }
-
-      /* UPI Gateway Specific Styles */
-      .upi-gateway-title {
-        margin: 16px 0 16px 0;
-        color: #1f2937;
-        font-size: 20px;
-        font-weight: 600;
-        text-align: center;
-      }
-
-      .upi-gateway-qr {
-        width: 200px;
-        height: 200px;
-        border: 2px solid #f3f4f6;
-        border-radius: 8px;
-        display: block;
-        margin: 0 auto;
-      }
-
-      .upi-gateway-details {
-        margin: 4px 0;
-        font-size: 14px;
-        color: #374151;
-      }
-
-      .upi-gateway-button {
-        width: 100%;
-        padding: 16px 0;
-        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-        color: white;
-        font-size: 16px;
-        font-weight: 600;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 2px 4px rgba(16, 185, 129, 0.2);
-      }
-
-      .upi-gateway-button:hover {
-        transform: translateY(-1px);
-        box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
-      }
-
-      .upi-gateway-note {
-        margin: 16px 0 0 0;
-        font-size: 11px;
-        color: #9ca3af;
-        text-align: center;
-        line-height: 1.4;
-      }
-
-      /* Responsive Mobile Design */
-      @media (max-width: 480px) {
-        .widgetify-widget {
-          bottom: 15px;
-          right: 15px;
-        }
-        
-        .widgetify-popup {
-          bottom: 85px;
-          right: 15px;
-          max-width: calc(100vw - 30px) !important;
-          margin: 0 !important;
-          border-radius: 8px !important;
-          padding: 16px !important;
-        }
-        
-        .upi-gateway-title {
-          font-size: 18px !important;
-        }
-        
-        .upi-gateway-details {
-          font-size: 13px !important;
-        }
-        
-        .upi-gateway-button {
-          padding: 14px 0 !important;
-          font-size: 15px !important;
-        }
-        
-        .upi-gateway-qr {
-          width: 160px !important;
-          height: 160px !important;
-        }
-        
-        .upi-gateway-note {
-          font-size: 11px !important;
-        }
-      }
-    </style>
-  
-        <div id="widgetify-whatsapp" class="widgetify-widget" onclick="toggleWidgetifyPopup()" aria-label="Open WhatsApp Chat">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M17.6 6.32A7.85 7.85 0 0 0 12 4.02a7.95 7.95 0 0 0-6.9 12.07L4 20.02l4.05-1.06A8.02 8.02 0 0 0 12 20.02a7.98 7.98 0 0 0 8-7.93c0-2.12-.83-4.12-2.4-5.62V6.32zm-5.6 12.2c-1.18 0-2.33-.32-3.33-.92l-.24-.14-2.47.65.66-2.41-.16-.25a6.63 6.63 0 0 1-1.02-3.52 6.57 6.57 0 0 1 11.29-4.57 6.45 6.45 0 0 1 2 4.55 6.57 6.57 0 0 1-6.57 6.57l-.16.04zm3.6-4.93c-.2-.1-1.17-.58-1.35-.64-.18-.06-.31-.1-.44.1-.13.2-.5.64-.61.77-.11.13-.23.15-.42.05-.2-.1-.84-.31-1.6-.99-.59-.52-.99-1.17-1.1-1.37-.12-.2-.01-.31.09-.41.09-.09.2-.23.3-.35.1-.12.13-.2.2-.33.07-.13.03-.24-.02-.34-.05-.1-.44-1.06-.6-1.45-.16-.38-.32-.33-.44-.33-.11 0-.24-.02-.37-.02-.13 0-.34.05-.52.25-.18.2-.68.67-.68 1.62 0 .96.7 1.88.8 2 .1.14 1.4 2.16 3.42 3.02.48.2.85.33 1.14.43.48.15.91.13 1.26.08.38-.06 1.17-.48 1.33-.94.17-.46.17-.86.12-.94-.05-.08-.18-.12-.37-.21z" fill="white"/>
-          </svg>
-        </div>
-
-        <div id="widgetify-popup" class="widgetify-popup" role="dialog" aria-labelledby="chat-title">
-          <div class="widgetify-header">
-            <h3 id="chat-title">WhatsApp Chat</h3>
-            <button class="widgetify-close" onclick="toggleWidgetifyPopup()" aria-label="Close chat">×</button>
-          </div>
-          <div class="widgetify-content">
-            <div style="background-color: #f3f4f6; padding: 8px; border-radius: 8px; margin-bottom: 8px; max-width: 80%;">
-              <p style="margin: 0; font-size: 12px; color: #374151;">Hey there! </p>
-            </div>
-          </div>
-          <div style="padding: 12px; border-top: 1px solid #e5e7eb; background-color: #f9fafb; border-radius: 0 0 10px 10px;">
-            <div style="display: flex; gap: 8px;">
-              <input type="text" placeholder="Type a message..." style="flex-grow: 1; font-size: 12px; padding: 8px; border: 1px solid #d1d5db; border-radius: 6px; outline: none;">
-              <button onclick="window.open('https://wa.me/919645778508?text=Hey%20there!%20')" style="background-color: #9b87f5; color: white; padding: 8px; border: none; border-radius: 6px; cursor: pointer;" aria-label="Send message on WhatsApp">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div class="widgetify-watermark">
-             <a href="https://widgetify.vercel.app" target="_blank">Powered by Widgetify</a>
-          </div>
-        </div>
-
-        <script>
-          function toggleWidgetifyPopup() {
-            const popup = document.getElementById('widgetify-popup');
-            popup.classList.toggle('show');
-          }
-        </script>
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -354,7 +110,7 @@
       </button>
     </div>
 
-    <nav class="nav-mobile" id="mobileNav" aria-label="Mobile navigation" hidden>
+    <nav class="nav-mobile" id="mobileNav" aria-label="Mobile navigation">
       <a href="#home">Home</a>
       <a href="#products">Products</a>
       <a href="#about">About Us</a>
@@ -370,7 +126,7 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
       <div class="container hero-grid">
-        <div class="hero-content">
+        <div class="hero-content" data-reveal>
           <p class="eyebrow">Khamaruzz Naadan Achaar</p>
           <h1>Authentic Kerala Homemade Pickles</h1>
           <p class="hero-lead">Handcrafted in small batches using time-honoured family recipes — sun-ripened mangoes, fresh garlic, and fiery Kerala chillies, pickled the traditional way for an unforgettable naadan taste.</p>
@@ -384,7 +140,7 @@
             </a>
           </div>
         </div>
-        <div class="hero-visual">
+        <div class="hero-visual" data-reveal data-reveal-delay="2">
           <img src="mango.png" alt="Featured Mango Pickle" class="hero-img" width="480" height="480">
         </div>
       </div>
@@ -393,7 +149,7 @@
     <!-- Products Section -->
     <section class="section section-products" id="products">
       <div class="container">
-        <header class="section-header">
+        <header class="section-header" data-reveal>
           <p class="eyebrow">Our Collection</p>
           <h2>Signature Naadan Achaar</h2>
           <p class="section-desc">Choose your favourite pickle, select a size, add to cart or order directly on WhatsApp.</p>
@@ -403,7 +159,7 @@
          <!-- ===========================
 MANGO PICKLE
 =========================== -->
-<article class="product-card" data-product="mango">
+<article class="product-card" data-product="mango" data-reveal data-reveal-delay="1">
   <div class="product-image">
     <button class="btn-favorite" data-favorite="mango" aria-label="Favorite Mango Pickle">♥</button>
     <img src="mango.png" alt="Mango Pickle" loading="lazy" width="400" height="400">
@@ -429,7 +185,7 @@ MANGO PICKLE
 <!-- ===========================
 GARLIC PICKLE
 =========================== -->
-<article class="product-card" data-product="garlic">
+<article class="product-card" data-product="garlic" data-reveal data-reveal-delay="2">
   <div class="product-image">
     <button class="btn-favorite" data-favorite="garlic" aria-label="Favorite Garlic Pickle">♥</button>
     <img src="garlic.png" alt="Garlic Pickle" loading="lazy" width="400" height="400">
@@ -455,7 +211,7 @@ GARLIC PICKLE
 <!-- ===========================
 DATES PICKLE
 =========================== -->
-<article class="product-card" data-product="dates">
+<article class="product-card" data-product="dates" data-reveal data-reveal-delay="3">
   <div class="product-image">
     <button class="btn-favorite" data-favorite="dates" aria-label="Favorite Dates Pickle">♥</button>
     <img src="dates.png" alt="Dates Pickle" loading="lazy" width="400" height="400">
@@ -481,7 +237,7 @@ DATES PICKLE
 <!-- ===========================
 CHICKEN KONDATTAM
 =========================== -->
-<article class="product-card" data-product="chicken-kondattam">
+<article class="product-card" data-product="chicken-kondattam" data-reveal data-reveal-delay="1">
   <div class="product-image">
     <button class="btn-favorite" data-favorite="chicken-kondattam" aria-label="Favorite Chicken Kondattam">♥</button>
     <img src="chicken-kondattam.png" alt="Chicken Kondattam" loading="lazy" width="400" height="400">
@@ -507,7 +263,7 @@ CHICKEN KONDATTAM
 <!-- ===========================
 NORMAL KONDATTAM
 =========================== -->
-<article class="product-card" data-product="normal-kondattam">
+<article class="product-card" data-product="normal-kondattam" data-reveal data-reveal-delay="2">
   <div class="product-image">
     <button class="btn-favorite" data-favorite="normal-kondattam" aria-label="Favorite Normal Kondattam">♥</button>
     <img src="normal-kondattam.png" alt="Normal Kondattam" loading="lazy" width="400" height="400">
@@ -533,7 +289,7 @@ NORMAL KONDATTAM
 <!-- ===========================
 CHEMMEEN ACHAAR
 =========================== -->
-<article class="product-card" data-product="chemmeen">
+<article class="product-card" data-product="chemmeen" data-reveal data-reveal-delay="3">
   <div class="product-image">
     <button class="btn-favorite" data-favorite="chemmeen" aria-label="Favorite Chemmeen Achaar">♥</button>
     <img src="chemmeen.png" alt="Chemmeen Achaar" loading="lazy" width="400" height="400">
@@ -558,7 +314,7 @@ CHEMMEEN ACHAAR
 <!-- ===========================
 MIX FRUITS ACHAAR
 =========================== -->
-<article class="product-card" data-product="mix-fruits">
+<article class="product-card" data-product="mix-fruits" data-reveal data-reveal-delay="4">
   <div class="product-image">
     <button class="btn-favorite" data-favorite="mix-fruits" aria-label="Favorite Mix Fruits Achaar">♥</button>
     <img src="mix-fruits.png" alt="Mix Fruits Achaar" loading="lazy" width="400" height="400">
@@ -585,10 +341,10 @@ MIX FRUITS ACHAAR
     <!-- About Section -->
     <section class="section section-about" id="about">
       <div class="container about-grid">
-        <div class="about-visual">
+        <div class="about-visual" data-reveal>
           <img src="mango.png" alt="Traditional Kerala preparation" loading="lazy" width="500" height="500">
         </div>
-        <div class="about-content">
+        <div class="about-content" data-reveal data-reveal-delay="2">
           <p class="eyebrow">Our Story</p>
           <h2>A Mother's Dream, Made Real</h2>
           <p>Khamaruzz Naadan Achaar began as the dream of a homemaker who believed in the extraordinary culinary recipes passed down through generations.</p>
@@ -600,16 +356,24 @@ MIX FRUITS ACHAAR
     <!-- Contact Section -->
     <section class="section section-contact" id="contact">
       <div class="container contact-grid">
-        <div class="contact-intro">
+        <div class="contact-intro" data-reveal>
           <p class="eyebrow">Get in Touch</p>
           <h2>Place Your Custom Order</h2>
           <p>Fill in your details below and we will automatically prepare your order message for WhatsApp.</p>
           <a href="tel:+919645778508" class="contact-link">+91 96457 78508</a>
         </div>
-        <form class="order-form" id="orderForm">
+        <form class="order-form" id="orderForm" data-reveal data-reveal-delay="2">
           <p class="form-cart-notice" id="formCartNotice" hidden>
             Checking out <strong><span data-cart-count>0</span> items</strong> (<span data-cart-total>₹0</span>).
           </p>
+          <div class="form-bill-preview" id="formBillPreview" hidden aria-live="polite">
+            <div class="form-bill-preview-header">
+              <span class="form-bill-label">Auto-generated bill</span>
+              <strong id="formBillNumber">—</strong>
+            </div>
+            <p class="form-bill-meta" id="formBillMeta"></p>
+            <button type="button" class="btn btn-outline btn-sm btn-block" id="formDownloadBillBtn">Download Bill (PDF)</button>
+          </div>
           <div class="form-row">
             <div class="form-group">
               <label for="fullName">Full Name *</label>
@@ -625,10 +389,6 @@ MIX FRUITS ACHAAR
               <label for="formProduct" id="formProductLabel">Select Product *</label>
               <select id="formProduct" name="product">
                 <option value="">Choose a pickle</option>
-                <option value="Mango Pickle">Mango Pickle</option>
-                <option value="Garlic Pickle">Garlic Pickle</option>
-                <option value="Chilli Pickle">Chilli Pickle</option>
-                <option value="Fish Pickle">Fish Pickle</option>
               </select>
             </div>
             <div class="form-group">
@@ -678,13 +438,26 @@ MIX FRUITS ACHAAR
       <button type="button" class="drawer-close" aria-label="Close cart">&times;</button>
     </div>
     <div class="drawer-body" id="cartItems"></div>
+    <div class="cart-bill-preview" id="cartBillPreview" hidden aria-live="polite">
+      <div class="cart-bill-preview-header">
+        <span>Invoice Preview</span>
+        <strong id="cartBillNumber">—</strong>
+      </div>
+      <p class="cart-bill-date" id="cartBillDate"></p>
+      <ul class="cart-bill-lines" id="cartBillLines"></ul>
+      <div class="cart-bill-total">
+        <span>Grand Total</span>
+        <strong id="cartBillTotal">₹0</strong>
+      </div>
+    </div>
     <div class="drawer-footer">
       <div class="drawer-total">
         <span>Subtotal</span>
         <strong id="cartSubtotal">₹0</strong>
       </div>
-      <button type="button" class="btn btn-primary btn-block" id="cartCheckoutBtn">Checkout on WhatsApp</button>
-      <button type="button" class="btn btn-ghost-dark btn-block" id="clearCartBtn" style="margin-top:0.5rem;">Clear Cart</button>
+      <button type="button" class="btn btn-outline btn-block" id="downloadBillBtn" disabled>Download Bill (PDF)</button>
+      <button type="button" class="btn btn-primary btn-block drawer-checkout-btn" id="cartCheckoutBtn" disabled>Checkout on WhatsApp</button>
+      <button type="button" class="btn btn-ghost-dark btn-block drawer-clear-btn" id="clearCartBtn">Clear Cart</button>
     </div>
   </aside>
 
@@ -700,7 +473,51 @@ MIX FRUITS ACHAAR
 
   <div class="toast" id="toastRoot" role="status" aria-live="polite"></div>
 
+  <!-- Bill preview modal -->
+  <div class="bill-modal-overlay" id="billModalOverlay" hidden></div>
+  <div class="bill-modal" id="billModal" role="dialog" aria-labelledby="billModalTitle" aria-hidden="true" hidden>
+    <div class="bill-modal-header">
+      <h2 id="billModalTitle">Invoice</h2>
+      <button type="button" class="bill-modal-close" id="billModalClose" aria-label="Close invoice">&times;</button>
+    </div>
+    <div class="bill-modal-body" id="billModalBody"></div>
+    <div class="bill-modal-footer">
+      <button type="button" class="btn btn-outline" id="billModalDownloadBtn">Download PDF</button>
+      <button type="button" class="btn btn-primary" id="billModalCloseBtn">Close</button>
+    </div>
+  </div>
+
+  <!-- PDF generation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js" crossorigin="anonymous"></script>
+
+  <!-- WhatsApp floating widget -->
+  <button type="button" id="widgetify-whatsapp" class="widgetify-widget" aria-label="Open WhatsApp chat" aria-expanded="false" aria-controls="widgetify-popup">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M17.6 6.32A7.85 7.85 0 0 0 12 4.02a7.95 7.95 0 0 0-6.9 12.07L4 20.02l4.05-1.06A8.02 8.02 0 0 0 12 20.02a7.98 7.98 0 0 0 8-7.93c0-2.12-.83-4.12-2.4-5.62V6.32zm-5.6 12.2c-1.18 0-2.33-.32-3.33-.92l-.24-.14-2.47.65.66-2.41-.16-.25a6.63 6.63 0 0 1-1.02-3.52 6.57 6.57 0 0 1 11.29-4.57 6.45 6.45 0 0 1 2 4.55 6.57 6.57 0 0 1-6.57 6.57l-.16.04zm3.6-4.93c-.2-.1-1.17-.58-1.35-.64-.18-.06-.31-.1-.44.1-.13.2-.5.64-.61.77-.11.13-.23.15-.42.05-.2-.1-.84-.31-1.6-.99-.59-.52-.99-1.17-1.1-1.37-.12-.2-.01-.31.09-.41.09-.09.2-.23.3-.35.1-.12.13-.2.2-.33.07-.13.03-.24-.02-.34-.05-.1-.44-1.06-.6-1.45-.16-.38-.32-.33-.44-.33-.11 0-.24-.02-.37-.02-.13 0-.34.05-.52.25-.18.2-.68.67-.68 1.62 0 .96.7 1.88.8 2 .1.14 1.4 2.16 3.42 3.02.48.2.85.33 1.14.43.48.15.91.13 1.26.08.38-.06 1.17-.48 1.33-.94.17-.46.17-.86.12-.94-.05-.08-.18-.12-.37-.21z" fill="white"/>
+    </svg>
+  </button>
+
+  <div id="widgetify-popup" class="widgetify-popup" role="dialog" aria-labelledby="chat-title" aria-hidden="true">
+    <div class="widgetify-header">
+      <h3 id="chat-title">WhatsApp Chat</h3>
+      <button type="button" class="widgetify-close" id="widgetifyClose" aria-label="Close chat">&times;</button>
+    </div>
+    <div class="widgetify-content">
+      <div style="background:var(--green-light);padding:10px 12px;border-radius:8px;max-width:85%;">
+        <p style="margin:0;font-size:0.875rem;color:var(--text-main);">Hi! How can we help you with your pickle order today?</p>
+      </div>
+    </div>
+    <div class="widgetify-input-row">
+      <input type="text" id="widgetifyInput" placeholder="Type a message..." aria-label="WhatsApp message">
+      <button type="button" class="widgetify-send-btn" id="widgetifySend" aria-label="Send on WhatsApp">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
   <script src="script.js" defer></script>
-  
 </body>
 </html>
