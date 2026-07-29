@@ -9,35 +9,84 @@
   const STORAGE_CART = "khamaruzz_cart";
   const STORAGE_FAV = "khamaruzz_favorites";
 
-  const PRODUCTS = {
-    mango: {
-      name: "Mango Pickle",
-      image: "mango.png",
-      prices: { "250g": 149, "500g": 249, "1kg": 499 }
-    },
-    garlic: {
-      name: "Garlic Pickle",
-      image: "garlic.png",
-      prices: { "250g": 169, "500g": 299, "1kg": 549 }
-    },
-    chilli: {
-      name: "Chilli Pickle",
-      image: "chilli.png",
-      prices: { "250g": 199, "500g": 349, "1kg": 649 }
-    },
-    fish: {
-      name: "Fish Pickle",
-      image: "fish.png",
-      prices: { "500g": 450, "1kg": 850 }
+const PRODUCTS = {
+  mango: {
+    name: "Mango Pickle",
+    image: "mango.png",
+    prices: {
+      "250g": 149,
+      "500g": 249,
+      "1kg": 499
     }
-  };
+  },
 
-  const PRODUCT_BY_NAME = {
-    "Mango Pickle": "mango",
-    "Garlic Pickle": "garlic",
-    "Chilli Pickle": "chilli",
-    "Fish Pickle": "fish"
-  };
+  garlic: {
+    name: "Garlic Pickle",
+    image: "garlic.png",
+    prices: {
+      "250g": 169,
+      "500g": 299,
+      "1kg": 549
+    }
+  },
+
+  dates: {
+    name: "Dates Pickle",
+    image: "dates.png",
+    prices: {
+      "250g": 199,
+      "500g": 349,
+      "1kg": 649
+    }
+  },
+
+  "chicken-kondattam": {
+    name: "Chicken Kondattam",
+    image: "chicken-kondattam.png",
+    prices: {
+      "250g": 390,
+      "500g": 590,
+      "1kg": 990
+    }
+  },
+
+  "normal-kondattam": {
+    name: "Normal Kondattam",
+    image: "normal-kondattam.png",
+    prices: {
+      "250g": 120,
+      "500g": 240,
+      "1kg": 580
+    }
+  },
+
+  chemmeen: {
+    name: "Chemmeen Achaar",
+    image: "chemmeen.png",
+    prices: {
+      "500g": 450,
+      "1kg": 890
+    }
+  },
+
+  "mix-fruits": {
+    name: "Mix Fruits Achaar",
+    image: "mix-fruits.png",
+    prices: {
+      "500g": 590
+    }
+  }
+};
+
+const PRODUCT_BY_NAME = {
+  "Mango Pickle": "mango",
+  "Garlic Pickle": "garlic",
+  "Dates Pickle": "dates",
+  "Chicken Kondattam": "chicken-kondattam",
+  "Normal Kondattam": "normal-kondattam",
+  "Chemmeen Achaar": "chemmeen",
+  "Mix Fruits Achaar": "mix-fruits"
+};
 
   /* Helper Functions */
   function formatPrice(amount) {
